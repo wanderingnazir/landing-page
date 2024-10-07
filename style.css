@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  background-color: #e2f1ec;
+  font-family: sans-serif;
+}
+
 .navbar {
   display: flex;
   background-color: rgb(43, 80, 69);
@@ -61,4 +67,34 @@
   width: auto;
   height: 280px;
   border-radius: 10px;
+}
+
+.info {
+  padding-top: 30px;
+  height: 500px;
+  width: auto;
+
+  color: rgb(42, 63, 54);
+  background-color: #e2f1ec;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.infoimg {
+  display: flex;
+  gap: 100px;
+}
+
+.infoimg div img {
+  height: 120px;
+  width: 120px;
+}
+.infoimg div {
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  font-weight: 600;
 }
