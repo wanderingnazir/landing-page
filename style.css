@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  background-color: rgb(43, 80, 69);
+  width: auto;
+  height: 55px;
+  align-items: center;
+
+  color: rgb(210, 223, 215);
+}
+
+.headerlogo {
+  flex-grow: 1;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 160px;
+}
+
+.navitem {
+  width: 150px;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(48, 85, 74);
+  gap: 20px;
+}
+
+.hero1 {
+  width: 450px;
+  height: auto;
+  padding-bottom: 50px;
+}
+.hero1 h1 {
+  color: rgb(210, 223, 215);
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero1 p {
+  color: rgb(210, 223, 215);
+  font-size: 18px;
+}
+
+.hero1 button {
+  background-color: #77b19c;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.hero2 img {
+  width: auto;
+  height: 280px;
+  border-radius: 10px;
+}
