@@ -71,7 +71,7 @@ body {
 
 .info {
   padding-top: 30px;
-  height: 500px;
+  height: 400px;
   width: auto;
 
   color: rgb(42, 63, 54);
@@ -91,10 +91,104 @@ body {
 .infoimg div img {
   height: 120px;
   width: 120px;
+  border-radius: 5px;
 }
 .infoimg div {
   height: 120px;
   width: 120px;
   text-align: center;
   font-weight: 600;
+}
+
+.quote {
+  padding-left: 250px;
+  padding-right: 250px;
+  width: auto;
+  height: 300px;
+  background-color: #b2cfc5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote h1 {
+  color: rgb(42, 63, 54);
+  font-weight: 400;
+  text-align: left;
+}
+
+.quote p {
+  color: rgb(42, 63, 54);
+  font-weight: 600;
+  font-size: 22px;
+  text-align: right;
+}
+
+.call {
+  height: 250px;
+  background-color: #e2f1ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgbox {
+  width: 60%;
+  height: 50%;
+  background-color: #346e58;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+
+  color: rgb(210, 223, 215);
+}
+
+.bgbox button {
+  background-color: #77b19c;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+.bgbox div h1 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 24px;
+  font-weight: 600px;
+}
+
+.bgbox div p {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 14px;
+  font-weight: 600px;
+}
+
+.bgbox div {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  width: auto;
+  height: 100px;
+  background-color: #132c23;
+  color: #77b19c;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
